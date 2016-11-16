@@ -4,9 +4,13 @@ Technical Test for Job Interview
 Completed following the below specifications and a provided design image and was to be completed in appromixately 2 hours (took me 2 hours 15 mins):
 
 Make use of semantic HTML mark-up. Preferably, you will make use of HTML5 elements where suitable. 
-All CSS will ideally exist in a separate file(s), avoid using inline styling and <style> blocks whenever possible. 
+
+All CSS will ideally exist in a separate file(s), avoid using inline styling and style blocks whenever possible. 
+
 All 4 pages of the site must validate in accordance with W3C web standards. Make use of the validator that can be found at http://validator.w3.org/ 
+
 The site needs to be responsive. The minimum device width it should fit to is 320px. 
+
 Use the font ‘Lato’, you can find it from Google Web Fonts. 
 
 Website requirements
@@ -38,6 +42,7 @@ The site-wide footer should contain the following information:
 Alternatively, you could implement a twitter feed into the footer
 
 Home Page
+
 The home page must consist of 4 main sections. The first section is a banner. This will act as a link to portfolio pieces. For the purposes of this test, they need only link to the ‘Work’ page. 
 
 The banner can simply be one of the provided portfolio images with some text overlaid.
