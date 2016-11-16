@@ -1,0 +1,102 @@
+body {
+  	overflow-x:hidden;
+  	font-family: Lato;
+  }
+  
+  .container h3 {
+    	color: #301F46;
+    }
+    
+  .container p {
+      	color: #160C16;
+  }
+  
+  .container a {
+        	color: #160C16;
+  }
+  
+  footer {
+     	background: #160C16;
+     	padding: 50px;
+     	color: white;
+     	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+  }
+  
+  a {
+      	color: white;
+  }
+  
+  input, textarea {
+    	margin: 5px;
+    	width: 50%;
+  }
+  
+  article {
+    	text-align: left;
+  }
+  
+  iframe {
+     	width: 100%;
+     	height: 300px;
+  }
+
+.navbar {
+   background: red; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(left, #311C39 , #1D1B1F); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(right, #311C39, #1D1B1F); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(right, #311C39, #1D1B1F); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to right, #311C39 , #1D1B1F); /* Standard syntax */
+ } 
+
+  .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    	background: #301F46;
+  }
+  
+  
+  
+  
+  
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    	display: inline;
+    }
+  
+  .item {
+    	background: url("Assets/banner-background.jpg");
+    	background-size: cover;	
+    	text-align: center;
+  }
+  
+  .carousel-caption {
+  	background: #301F46;
+  	opacity: .8;
+  	border-radius: 15px;
+  }
+  
+  .carousel-caption a {
+    	color: white;
+  }
+ 
+  
+  .work {
+  	margin: 50px;
+  }
+  
+  .boxes {
+  	background: #4A2974;
+  	margin: 20px;
+  	padding: 50px;
+  	border-radius: 15px;
+  	color: white !important;
+  	font-size: 30px;
+  }
+  
+  .latest {
+  	width: 75%;
+  	margin: 10px;
+  }
+
+  
+  

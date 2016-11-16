@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Company Name - Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" type="text/css">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="index.html"><img src="Assets/company-logo.png" class="img-responsive" alt="Image"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container text-center">
+  <div class="row">
+    <div class="col-sm-12">
+		<iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCYuLOCbZOBHCsobQA9haLvboNxtESmSik&q=Manchester+Arndale" allowfullscreen></iframe>
+    </div>
+  </div>
+	<div class="row">
+    <div class="col-sm-6">
+		<h3>Address</h3>
+	  	<p>Address Line 1,<br>
+	  	Address Line 2,<br>
+	  	Address Line 3,<br>
+	  	Manchester,<br>Postcode</p>
+	  	<h3>E-mail:</h3>
+	  	<p><a href="mailto:info@company.co.uk">info@company.co.uk</a></p>
+	  	<h3>Telephone:</h3>
+	  	<p>0161 123 4567</p>
+    </div>
+    <div class="col-sm-6">
+		<form id="contact" action="contact_form.html" method="post">
+		    <h3>Contact Us</h3>
+		    <fieldset>
+		      <input placeholder="Your name" type="text" tabindex="1" required>
+		    </fieldset>
+		    <fieldset>
+		      <input placeholder="Email Address" type="email" tabindex="2" required>
+		    </fieldset>
+		    <fieldset>
+		      <input placeholder="Telephone Number" type="tel" tabindex="3" required>
+		    </fieldset>
+		    <fieldset>
+		      <input placeholder="Message subject" type="text" tabindex="4"	required>
+		    </fieldset>
+		    <fieldset>
+		      <textarea placeholder="Your Message Here" tabindex="5" required></textarea>
+		    </fieldset>
+		    <fieldset>
+		      <button name="submit" type="submit">Submit</button>
+		    </fieldset>
+  		</form>
+    </div>
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+  <div class="row">
+      <div class="col-sm-6">
+         <p>Company Name, Company Address, Company Postcode</p>
+         <p>Tel: 0161 123 4567</p>
+         <p>E-mail: <a href="mailto:info@company.co.uk">info@company.co.uk</a></p>
+      </div>
+      <div class="col-sm-6">
+         <p><a href="https://www.facebook.com/company" target="_blank"><img src="Assets/facebook-icon.png" class="img-responsive" alt="Image"> /Company</a></p>
+         <p><a href="https://www.twitter.com/company" target="_blank"><img src="Assets/twitter-icon.png" class="img-responsive" alt="Image"> @Company</a></p>
+      </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
